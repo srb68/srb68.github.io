@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Sneh Bhatt</title>
+  <meta name="description" content="Projects by Sneh Bhatt: AdaptIQ, AI PDF Study Assistant, Battlesnake, Privacy Pulse, and more.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="index.html">Sneh Bhatt</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="projects.html" class="active" aria-current="page">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">Projects</h1>
+    <p class="page-intro">
+      Tools I've built, mostly shipped, some still rough. AdaptIQ comes first. The rest taught me something worth keeping.
+    </p>
+
+    <section class="reveal" aria-label="Featured project">
+      <article class="card">
+        <div>
+          <span class="badge">Winner — Anthropic Claude Builder Hackathon 2026</span>
+          <span class="badge">Flagship</span>
+        </div>
+        <h3>AdaptIQ</h3>
+        <p>
+          An accessible AI web suite for neurodivergent job seekers — a mock interview platform
+          designed with predictability and accommodation built in from the start, rather than bolted
+          onto a generic interview tool. Built with Rishab Mohandoss and Aagam Ambavi.
+        </p>
+        <ul>
+          <li>Role: UI/UX lead, backend caching architecture</li>
+          <li>Accepted into NJIT's Paul Profeta Fellowship</li>
+          <li>Currently building a Job Description Agent powered by the Anthropic API to generate role-specific interview scenarios</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">React</span><span class="tag">Anthropic API</span><span class="tag">Firebase</span><span class="tag">Cosmos DB</span>
+        </div>
+        <div class="card-links">
+          <a href="https://adaptiq-fa584.web.app/" class="card-link primary" target="_blank" rel="noopener">Live site</a>
+          <a href="https://github.com/srb68/AdaptIQ" class="card-link secondary" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="reveal" aria-label="All projects">
+      <div class="card-grid">
+
+        <article class="card">
+          <h3>AI PDF Study Assistant</h3>
+          <p>A RAG-powered study tool that lets you upload PDFs and have an actual conversation with them — ask questions, get summaries, see highlighted source citations inline.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">FAISS</span><span class="tag">Gemini API</span><span class="tag">React</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/srb68/ai-pdf-study-assistant" class="card-link primary" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Battlesnake — Thunga</h3>
+          <p>A competitive Battlesnake AI using A* pathfinding, flood fill, Voronoi space control, and an opponent profiler that classifies enemies into archetypes and adapts in real time, all within a 200ms budget.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Docker</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/srb68/battlesnake-thunga" class="card-link primary" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Privacy Pulse</h3>
+          <p>Chrome extension that intercepts network requests and checks them against a database of 100+ known trackers across 7 categories, with a real-time privacy score and live visualizations.</p>
+          <div class="tags">
+            <span class="tag">JavaScript</span><span class="tag">Chrome Extensions API</span><span class="tag">Chart.js</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/srb68/privacy-pulse" class="card-link primary" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Culinary Connoisseurs</h3>
+          <p>Full-stack catering management platform built for a course. PHP + MySQL backend, complex JOIN queries for an admin dashboard, AJAX real-time chatbot, and SQL injection prevention throughout.</p>
+          <div class="tags">
+            <span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">AJAX</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/srb68/culinary-connoisseurs" class="card-link primary" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Student Productivity Hub</h3>
+          <p>All-in-one productivity app combining a task manager, grade calculator, Pomodoro timer, notes app, and an analytics dashboard surfacing patterns across all modules.</p>
+          <div class="tags">
+            <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/srb68/student-productivity-hub" class="card-link primary" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Station Zero</h3>
+          <p>First-person survival game on an abandoned space station, built in Unity. Enemy AI uses a finite state machine with NavMesh pathfinding and custom sound-investigation behaviors.</p>
+          <div class="tags">
+            <span class="tag">Unity</span><span class="tag">C#</span><span class="tag">Game Design</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/srb68/station-zero" class="card-link primary" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Personal Expense Tracker</h3>
+          <p>Desktop finance tracker built with Python and Tkinter — Matplotlib charts for category breakdown and spending over time, full CRUD with filtering.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Tkinter</span><span class="tag">Matplotlib</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/srb68/expense-tracker" class="card-link primary" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      <a href="mailto:snehr2006@gmail.com">Email</a>
+      <a href="https://github.com/srb68" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/sneh-bhatt-" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+    <p>© 2026 Sneh Bhatt</p>
+  </footer>
+
+  <script src="js/animations.js"></script>
+</body>
+</html>
