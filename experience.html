@@ -20,6 +20,7 @@
         <li><a href="experience.html" class="active" aria-current="page">Experience</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="personal.html">Personal</a></li>
       </ul>
     </nav>
   </header>
@@ -35,27 +36,26 @@
       <article class="timeline-item">
         <div class="timeline-label">
           <div class="sticky-box">
-            <span class="timeline-date">06/2026 — 08/2026</span>
-            <h3>Full Stack Software Engineering Intern</h3>
-            <span class="org">Thorlabs</span>
+            <span class="timeline-date">05/2026 — 08/2026</span>
+            <h3>Full-Stack Software Engineering Intern</h3>
+            <span class="org">Thorlabs Inc.</span>
             <span class="loc">Newton, NJ</span>
           </div>
         </div>
         <div class="timeline-body reveal">
           <p>
-            Thorlabs is a photonics equipment manufacturer. I'm on the internal tools team building
-            APIs and services that support production and manufacturing workflows.
+            At Thorlabs, I built internal tools and APIs that supported photonics manufacturing,
+            helped employees upload product data, and made production orders easier to track.
           </p>
           <ul>
-            <li>Designed a Cosmos DB-first caching pattern for the MESLite API in C# and Azure Functions, with custom mappers, DTOs, exception handling, and a dedicated ProductionOrderClient, cutting redundant database calls and speeding up API response times</li>
-            <li>Replaced untyped settings access with strongly-typed configuration classes across the Uploads API, reducing runtime configuration errors</li>
-            <li>Built serverless Azure Functions integrated with Cosmos DB and Microsoft Graph API for end-to-end document ingestion and retrieval, including SharePoint URL parsing</li>
-            <li>Added production order number filtering to the ProductionOrders API</li>
-            <li>Authored xUnit tests using Moq to mock dependencies and validate service logic, supporting PR review workflows in Azure DevOps</li>
+            <li>Reduced MESLite API response times by at least 83%, from over 30 seconds to within 5 seconds, using Cosmos DB caching with C# and Azure Functions. Built data models, mappers, DTOs, and a ProductionOrderClient to avoid repeated D365 requests.</li>
+            <li>Built an Excel bulk-upload tool with Microsoft Graph API and SharePoint so employees could upload product categories into D365 in under a minute without enterprise team assistance. Added validation for row limits, add/replace conflicts, and existing records.</li>
+            <li>Extended the MESLite and ProductionOrders APIs with timestamp tracking, elapsed time calculations, and order filters for the England team's preproduction project. Resolved Cosmos entity and DTO mismatches to keep data mapping accurate.</li>
+            <li>Independently built a Flask dashboard that combined order statuses, overdue counts, and creation and start dates, replacing individual order checks and reducing manual tracking.</li>
           </ul>
-          <div class="highlight-box">Built the caching layer a production manufacturing API now runs on.</div>
+          <div class="highlight-box">MESLite API response times: over 30 seconds down to within 5 seconds.</div>
           <div class="tags">
-            <span class="tag">C#</span><span class="tag">.NET</span><span class="tag">Azure Functions</span><span class="tag">Cosmos DB</span><span class="tag">xUnit / Moq</span>
+            <span class="tag">C#</span><span class="tag">.NET</span><span class="tag">Azure Functions</span><span class="tag">Cosmos DB</span><span class="tag">Microsoft Graph API</span><span class="tag">Flask</span>
           </div>
         </div>
       </article>
@@ -64,9 +64,9 @@
         <div class="timeline-label">
           <div class="sticky-box">
             <span class="timeline-date">06/2025 — 08/2025</span>
-            <h3>Software Development Intern</h3>
+            <h3>Software Development Intern — AI, SaaS, and Web Optimization</h3>
             <span class="org">Sports Media Inc.</span>
-            <span class="loc">Remote</span>
+            <span class="loc">Part-time · Remote</span>
           </div>
         </div>
         <div class="timeline-body reveal">
@@ -77,7 +77,6 @@
           <ul>
             <li>Built a Python recommendation engine using collaborative filtering, improving content engagement ~15% across 500+ daily articles</li>
             <li>Automated an NLP-based content tagging pipeline, cutting manual tagging time 40%</li>
-            <li>Boosted organic traffic 20% via technical SEO fixes; wrote a test suite reducing production bugs 30%</li>
           </ul>
           <div class="tags">
             <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">REST APIs</span><span class="tag">pytest</span>
@@ -100,9 +99,8 @@
             NYC area. Worked with operations to improve technology across construction projects.
           </p>
           <ul>
-            <li>Managed Procore workflows for 4 active projects, maintaining 95% data accuracy for documents, schedules, RFIs, and submittals</li>
-            <li>Debugged and resolved 10+ integration issues between Procore and accounting/scheduling software, reducing manual data entry errors by 15%</li>
-            <li>Built automated QC checklists that sped up inspection-to-approval by about 10%</li>
+            <li>Automated recurring Procore workflows across 4 construction projects, cutting manual data entry time by 15% and reducing reporting errors while maintaining 95% data accuracy.</li>
+            <li>Diagnosed and resolved more than 10 software integration issues between systems.</li>
           </ul>
           <div class="tags">
             <span class="tag">Procore</span><span class="tag">Systems Integration</span>
@@ -119,15 +117,15 @@
         <div class="timeline-label">
           <div class="sticky-box">
             <span class="timeline-date">09/2025 — Present</span>
-            <h3>Teaching Assistant</h3>
+            <h3>Teaching Assistant / Peer Mentor</h3>
             <span class="org">NJIT Learning Communities</span>
             <span class="loc">Newark, NJ</span>
           </div>
         </div>
         <div class="timeline-body reveal">
           <ul>
-            <li>Mentor 25+ first-year students through study strategies, time management, and navigating college</li>
-            <li>Run study sessions and workshops on note-taking and managing stress before exams</li>
+            <li>Guide more than 25 first-year students through college-level coursework with weekly office hours and debugging sessions.</li>
+            <li>Earned positive end-of-semester feedback and collaborated with faculty to identify at-risk students and adjust support strategies.</li>
           </ul>
         </div>
       </article>
@@ -143,8 +141,8 @@
         </div>
         <div class="timeline-body reveal">
           <ul>
-            <li>Ran technical workshops on web scraping, API integration, and data analysis</li>
-            <li>Managed consulting teams delivering solutions for real startups</li>
+            <li>Facilitated technical workshops for more than 30 members.</li>
+            <li>Led consulting teams delivering data-driven solutions for early-stage startups.</li>
           </ul>
         </div>
       </article>
